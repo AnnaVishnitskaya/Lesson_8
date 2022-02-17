@@ -1,0 +1,596 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900);
+body {
+	font-family: "PT+Sans", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+#header {
+	background: linear-gradient(
+		0deg,
+		rgba(242, 231, 16, 0.34315382737379807) 0%,
+		rgba(45, 223, 45, 0.41530115464154416) 100%
+	);
+	padding: 30px 0 15px 0;
+	margin: 0 0 20px 0;
+}
+a:focus {
+	outline: 1px double red;
+}
+.header-verh-logo {
+	max-width: 100px;
+	height: 50px;
+	text-align: center;
+	color: rgb(245, 75, 8);
+	border-radius: 50px 50px 0 0;
+	background-color: rgb(245, 75, 8);
+	margin: 0px 0 0 70px;
+}
+.header-medium-logo {
+	padding: 10px 0 0 0;
+	margin: 0px 0 0px 20px;
+	max-width: 200px;
+	height: 50px;
+	text-align: center;
+	background-color: rgb(245, 75, 8);
+	color: white;
+	border-radius: 30px;
+	font-size: 25px;
+}
+.header-base-logo {
+	margin: 0 0 30px 45px;
+	max-width: 150px;
+	height: 30px;
+	text-align: center;
+	background-color: rgb(245, 75, 8);
+	border-radius: 0 0 70px 70px;
+	color: white;
+	font-size: 18px;
+	padding: 4px 0 0 0;
+}
+.header-nav {
+	color: #0c6912;
+	font-size: 25px;
+	margin: 0 0 20px 300px;
+}
+.header-nav li {
+	margin: 0 0 20px;
+}
+.header-nav li:last-child {
+	margin-bottom: 0;
+}
+/*!----visited ставить только ПЕРЕД hover----*/
+.header-list1a:visited {
+	color: rgb(106, 8, 125);
+}
+.header-list2a:visited {
+	color: rgb(8, 100, 125);
+}
+.header-list3a:visited {
+	color: rgb(77, 35, 128);
+}
+.header-list4a:visited {
+	color: rgb(28, 104, 125);
+}
+.header-list1:hover {
+	text-decoration: underline;
+	color: rgb(7, 79, 7);
+	text-shadow: 1px 1px 1px black;
+}
+.header-list1:active,
+.header-list2:active {
+	color: blue;
+}
+.header-list2:hover {
+	display: inline-block;
+	background-color: rgba(116, 221, 128, 0.755);
+	padding: 5px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+.header-list3:hover {
+	color: rgb(6, 44, 44);
+	border: 1px dotted #0c6912;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+.header-list4:hover {
+	background-image: url("../img/zast4.jpg");
+	background-size: 20px;
+	color: black;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.exclus {
+	margin: 0 40px;
+}
+.vinograd {
+	min-height: 500px;
+	background-image: url("../img/vinograd.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	margin: 0 30px 30px;
+}
+.vinogpeach-int {
+	max-width: 500px;
+	margin: 100px 0px 0px auto;
+	line-height: 1.5;
+	color: rgb(69, 59, 59);
+	text-align: right;
+}
+
+.span-1,
+.span-2,
+.span-3 {
+	text-decoration: underline;
+}
+.span-1:hover {
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: none;
+}
+.span-2:hover {
+	outline: 2px dashed rgb(0, 255, 166);
+	text-decoration: none;
+}
+.span-3:hover {
+	background-color: rgba(58, 191, 228, 0.517);
+}
+.fruit-h21 {
+	font-size: 30px;
+	margin: 0 0 0 0;
+	color: rgb(69, 59, 59);
+}
+.fruit-h22 {
+	font-size: 35px;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #0c6912;
+}
+
+.fruit-p:hover {
+	cursor: pointer;
+	background: rgba(41, 42, 42, 0.279);
+}
+
+.orang {
+	min-height: 500px;
+	background-image: url("../img/orange.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	margin: 0 30px 30px;
+}
+.orang-int {
+	max-width: 500px;
+	margin: 100px auto 0px 0px;
+	line-height: 1.5;
+	color: rgb(69, 59, 59);
+	text-align: left;
+}
+.peach {
+	min-height: 500px;
+	background-image: url("../img/peach.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	margin: 0 30px 30px;
+}
+.prod {
+	margin: 0 150px 40px;
+}
+
+.prod:hover {
+	border: 2px dotted green;
+}
+#prod-h2,
+#proiz-h2 {
+	color: #0c6912;
+	font-size: 45px;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: 30px 0 60px;
+}
+.malina-union {
+	display: inline-block;
+	margin: 0 100px 50px 50px;
+}
+.malina {
+	width: 135px;
+	height: 135px;
+	text-align: center;
+	margin: 0px auto 0;
+	padding-top: 5px;
+}
+.malina-p {
+	color: white;
+	margin: 0 auto 0;
+	text-align: center;
+}
+.malina-union:hover {
+	margin-top: -2px;
+}
+.malina-union:hover .malina {
+	border-radius: 50%;
+	border: 2px dotted green;
+}
+
+.malina-union:hover .malina-p {
+	background-color: green;
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: -10px;
+	font-size: 16px;
+}
+.multi-union {
+	display: inline-block;
+	margin: 0 100px 50px 50px;
+}
+.multi {
+	width: 135px;
+	height: 135px;
+	text-align: center;
+	margin: 0px auto 0;
+	padding-top: 5px;
+}
+.multi-p {
+	color: white;
+	margin: 0 auto 0;
+	text-align: center;
+}
+.multi-union:hover {
+	margin-top: -2px;
+}
+.multi-union:hover .multi {
+	border-radius: 50%;
+	border: 2px dotted green;
+}
+
+.multi-union:hover .multi-p {
+	background-color: green;
+	max-width: 120px;
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: -10px;
+	font-size: 16px;
+}
+.app-union {
+	display: inline-block;
+	margin: 0 100px 50px 50px;
+}
+.app {
+	width: 135px;
+	height: 135px;
+	text-align: center;
+	margin: 0px auto 0;
+	padding-top: 5px;
+}
+.app-p {
+	color: white;
+	margin: 0 auto 0;
+	text-align: center;
+}
+.app-union:hover {
+	margin-top: -2px;
+}
+.app-union:hover .app {
+	border-radius: 50%;
+	border: 2px dotted green;
+}
+
+.app-union:hover .app-p {
+	background-color: green;
+	max-width: 120px;
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: -10px;
+	font-size: 16px;
+}
+.appvi-union {
+	display: inline-block;
+	margin: 0 100px 50px 50px;
+}
+.appvi {
+	width: 135px;
+	height: 135px;
+	text-align: center;
+	margin: 0px auto 0;
+	padding-top: 5px;
+}
+.appvi-p {
+	color: white;
+	margin: 0 auto 0;
+	text-align: center;
+}
+.appvi-union:hover {
+	margin-top: -2px;
+}
+.appvi-union:hover .appvi {
+	border-radius: 50%;
+	border: 2px dotted green;
+}
+
+.appvi-union:hover .appvi-p {
+	background-color: green;
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: -10px;
+	font-size: 16px;
+}
+
+.proizv {
+	text-align: center;
+}
+.proiz-link {
+	color: white;
+	font-size: 20px;
+	max-width: 300px;
+	margin: 0 auto 20px;
+	background: green;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 0 auto 20px;
+}
+.proizv-block1 {
+	color: green;
+	font-size: 20px;
+	max-width: 400px;
+	margin: 0 auto 20px;
+	display: none;
+}
+.proizv-block1 div {
+	padding: 10px;
+	border-radius: 20px;
+	margin: 0 auto 20px;
+	border: 2px solid #0c6912;
+}
+.proizv-block1-1:hover,
+.proizv-block1-2:hover,
+.proizv-block1-3:hover {
+	background: green;
+	color: white;
+	border: 2px solid #0c6912;
+}
+/* !Работают по отдельности, вместе нет */
+
+/* --.proizv-block1 div:nth-of-type(2),
+.proizv-block1 div:first-of-type,
+.proizv-block1 div:last-child {
+	background: rgba(70, 218, 70, 0.864);
+	color: white;
+	border: 2px solid #0c6912;
+}
+.proizv-block1:hover div:first-of-type {
+	background: rgb(216, 137, 18);
+	color: white;
+	border: 2px solid #0c6912;
+}
+.proizv-block1:hover div:last-child {
+	background: green;
+	color: white;
+	border: 2px solid #0c6912;
+}----*/
+.proizv-block1:target {
+	display: inline-block;
+}
+#pr-juse-title,
+#vosst-juice-title,
+#conc-juice-title {
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin: 0 30px 20px 30px;
+}
+.pr-juice,
+.vosst-juice,
+.conc-juice {
+	margin: 0 30px 20px 30px;
+}
+.juice p:first-of-type {
+	background: rgba(167, 165, 165, 0.673);
+}
+.juice p:nth-of-type(2) {
+	background: rgba(167, 165, 165, 0.673);
+	color: #0c6912;
+}
+.juice *:last-child {
+	background: rgba(167, 165, 165, 0.673);
+}
+.juice *:nth-child(even) {
+	color: rgb(24, 21, 21);
+}
+.juice h3:nth-of-type(odd) {
+	text-shadow: 0 2px 1px #0c6912;
+}
+.juice h3:nth-child(odd) {
+	color: #0c6912;
+}
+.juice p:last-child {
+	margin-bottom: 0;
+}
+.juice {
+	margin-bottom: 30px;
+}
+.circle {
+	width: 700px;
+	height: 700px;
+	border-radius: 50%;
+	margin: 0 auto 30px;
+	border: 2px solid rgba(128, 128, 128, 0.367);
+	background-image: url("../img/navedi.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center 230px;
+}
+.circle::before {
+	content: "Дополнительная информация";
+	display: block;
+	margin: 50px auto 0;
+	max-width: 400px;
+	text-align: center;
+	color: #0c6912;
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+.image {
+	margin: 20px auto 10px;
+	max-width: 100px;
+}
+.image-picture {
+	width: 100px;
+	height: 100px;
+}
+.circle::after {
+	content: "";
+	display: block;
+	height: 120px;
+	width: 350px;
+	margin: 0 auto 0;
+	background: url("../img/img-3d-klub.png") 0px 0 / 120px no-repeat,
+		url("../img/grapes-emoji.png") bottom center / 120px no-repeat,
+		url("../img/img-3d-app.png") top right / 120px no-repeat;
+}
+.many-image {
+	margin: 0px auto 10px;
+	max-width: 550px;
+}
+.many-image-link {
+	opacity: 0;
+	display: inline;
+}
+.many-image-link:hover {
+	opacity: 1;
+}
+.link {
+	color: white;
+	background: rgba(193, 19, 97, 0.741);
+	box-shadow: 0px 5px 0px 0px rgb(91, 6, 56);
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 20px 0 50px 30px;
+	display: inline-block;
+	padding: 15px;
+	border-radius: 30px;
+	letter-spacing: 2px;
+}
+.link:hover {
+	background: rgba(193, 19, 97);
+}
+.link:active {
+	box-shadow: 0 0 0 0 rgb(91, 6, 56), inset 0 5px 0 0 rgb(91, 6, 56);
+	margin: 22px 0 100px 30px;
+}
+.link:visited {
+	color: aqua;
+}
+.vverh-link::before {
+	content: "";
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background: url("../img/strelka-vverh.png") center no-repeat;
+	border-radius: 50%;
+	border: 3px solid black;
+	opacity: 0.5;
+	margin: 0 0 30px 30px;
+	transition: all 0.3s ease 0s;
+}
+.vverh-link:hover::before {
+	transform: rotate(360deg) scale(1.3);
+}
+.footer {
+	background-color: rgb(105, 103, 103);
+	color: white;
+	padding: 30px;
+}
+.footer a {
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 10px 0px;
+}
+.footer p:not(:last-child) {
+	margin: 0 0 10px 0px;
+}
+.footer:visited {
+	color: rgb(14, 13, 14);
+}
+/* --Лист2---- */
+
+.main2 {
+	font-family: "Lato", sans-serif;
+}
+
+.maket-1 {
+	max-width: 390px;
+	margin: 0 auto 0;
+}
+.zag-maket-1 {
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	text-transform: uppercase;
+	margin: 0 0 8px 0;
+}
+.zag-maket-1-2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin: 0 0 48px 0;
+}
+.list-maket1 {
+	margin: 0 0 22px 0;
+}
+.list-maket1-li {
+	line-height: 1.6;
+	color: #424551;
+	padding: 0px 0px 0px 32px;
+}
+.list-maket1-li:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.list-maket1-li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/list.svg") 0 0 / 16px no-repeat;
+	width: 16px;
+	height: 16px;
+	/* ! в bg иконка не активна, а в before она -объект и сдвигает контент */
+	margin: 0px 16px 0px -32px;
+	vertical-align: middle;
+}
+.button {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 3.14;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	min-width: 161px;
+	border-radius: 4px;
+	display: inline-block;
+}
+/* ---------------Макет 2-------------------- */
+.maket-2 {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 1.11;
+	color: #333333;
+	letter-spacing: 0.02em;
+	max-width: 250px;
+	margin: 100px auto 0;
+	background: #e5e5e5;
+}
+.maket-2::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 65px;
+	margin: 8px 0 0 0;
+	background-color: #333333;
+}
